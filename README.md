@@ -10,17 +10,18 @@
    cd w207-predictive-maintenance
 
 2. Python 3.12 venv + exact dependencies from lock Macs we recommend you use acceleration **
+   ```bash
    uv venv --python 3.12
    uv sync --frozen               # add: --extra mac-accel  (Apple Silicon GPU)
 
 3. (optional) Jupyter kernel **
+   ```bash
    uv run python -m ipykernel install --user --name 207-pm --display-name "Python 3.12 (207-pm)"
 
 4. Install LFS
+   ```bash
    git lfs install
    git lfs pull
-
-   ```
 
 # Project Structure
 
