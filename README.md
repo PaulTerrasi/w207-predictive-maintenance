@@ -1,10 +1,4 @@
 # w207-predictive-maintenance
-## Project Structure
-
-Project Proposal: Predicting Failure of Milling Machine
-
-Kim Chen (kim_chen@ischool.berkeley.edu), Paul Terrasi(paul.terrasi@ischool.berkeley.edu),
-Jeremy Liu(jeremy_liu@ischool.berkeley.edu), Juba Cochran(jubacochran@ischool.berkeley.edu)
 
 ## New to the repo start here:
 
@@ -23,6 +17,13 @@ uv run python -m ipykernel install --user --name 207-pm --display-name "Python 3
 ** (if repo uses LFS for data) **
 git lfs install
 git lfs pull
+
+# Project Structure
+
+Project Proposal: Predicting Failure of Milling Machine
+
+Kim Chen (kim_chen@ischool.berkeley.edu), Paul Terrasi(paul.terrasi@ischool.berkeley.edu),
+Jeremy Liu(jeremy_liu@ischool.berkeley.edu), Juba Cochran(jubacochran@ischool.berkeley.edu)
 
 Motivation:
 
