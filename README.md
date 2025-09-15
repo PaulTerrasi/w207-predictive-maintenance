@@ -19,7 +19,7 @@
 4. Install LFS
    git lfs install
    git lfs pull
-
+   '''
 # Project Structure
 
 Project Proposal: Predicting Failure of Milling Machine
