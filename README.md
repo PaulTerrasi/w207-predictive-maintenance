@@ -6,21 +6,21 @@ Project Proposal: Predicting Failure of Milling Machine
 Kim Chen (kim_chen@ischool.berkeley.edu), Paul Terrasi(paul.terrasi@ischool.berkeley.edu),
 Jeremy Liu(jeremy_liu@ischool.berkeley.edu), Juba Cochran(jubacochran@ischool.berkeley.edu)
 
-**New to the repo start here:**
+## New to the repo start here:
 
-# install uv + clone
+** install uv + clone **
 pip install uv
 git clone https://github.com/PaulTerrasi/w207-predictive-maintenance.git
 cd w207-predictive-maintenance
 
-# Python 3.12 venv + exact dependencies from lock Macs we recommend you use acceleration
+** Python 3.12 venv + exact dependencies from lock Macs we recommend you use acceleration **
 uv venv --python 3.12
 uv sync --frozen               # add: --extra mac-accel  (Apple Silicon GPU)
 
-# (optional) Jupyter kernel
+** (optional) Jupyter kernel **
 uv run python -m ipykernel install --user --name 207-pm --display-name "Python 3.12 (207-pm)"
 
-# (if repo uses LFS for data)
+** (if repo uses LFS for data) **
 git lfs install
 git lfs pull
 
