@@ -3,7 +3,7 @@
 ## New to the repo start here:
 
 1. install uv + clone
-   '''bash
+   ```bash
 
    pip install uv
    git clone https://github.com/PaulTerrasi/w207-predictive-maintenance.git
@@ -19,7 +19,7 @@
 4. Install LFS
    git lfs install
    git lfs pull
-   '''
+
 # Project Structure
 
 Project Proposal: Predicting Failure of Milling Machine
