@@ -3,20 +3,22 @@
 ## New to the repo start here:
 
 1. install uv + clone
-pip install uv
-git clone https://github.com/PaulTerrasi/w207-predictive-maintenance.git
-cd w207-predictive-maintenance
+   '''bash
+
+   pip install uv
+   git clone https://github.com/PaulTerrasi/w207-predictive-maintenance.git
+   cd w207-predictive-maintenance
 
 2. Python 3.12 venv + exact dependencies from lock Macs we recommend you use acceleration **
-uv venv --python 3.12
-uv sync --frozen               # add: --extra mac-accel  (Apple Silicon GPU)
+   uv venv --python 3.12
+   uv sync --frozen               # add: --extra mac-accel  (Apple Silicon GPU)
 
 3. (optional) Jupyter kernel **
-uv run python -m ipykernel install --user --name 207-pm --display-name "Python 3.12 (207-pm)"
+   uv run python -m ipykernel install --user --name 207-pm --display-name "Python 3.12 (207-pm)"
 
 4. Install LFS
-git lfs install
-git lfs pull
+   git lfs install
+   git lfs pull
 
 # Project Structure
 
