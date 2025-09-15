@@ -206,3 +206,31 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 .venv/
+# --- envs & caches ---
+.venv/
+venv/
+env/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+.history/
+.python-version
+
+# --- experiment artifacts ---
+mlruns/
+*.log
+
+# --- data & outputs (keep raw as source of truth) ---
+data/interim/**
+data/processed/**
+reports_by_milestone/figures/*
+
+# model artifacts (keep placeholder)
+models/*
+!models/.gitkeep
+# keep figure placeholder
+!reports_by_milestone/figures/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep

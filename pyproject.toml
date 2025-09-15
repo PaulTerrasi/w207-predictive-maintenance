@@ -11,7 +11,8 @@ dependencies = [
   "seaborn",
   "wandb",
   "jupyter",
-  "ipykernel"
+  "ipykernel",
+  "pyprojroot>=0.3.0",
 ]
 
 [project.optional-dependencies]
