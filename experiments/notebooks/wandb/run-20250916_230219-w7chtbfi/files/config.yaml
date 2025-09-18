@@ -1,0 +1,38 @@
+_wandb:
+    value:
+        cli_version: 0.21.4
+        e:
+            w6os6nxw6ofyxklhgvhm1mbf6co0var0:
+                codePath: experiments/notebooks/juba-experiments.ipynb
+                codePathLocal: juba-experiments.ipynb
+                email: jubacochran@berkeley.edu
+                executable: /Users/jubacochran/projects/student/207/w207-predictive-maintenance/.venv/bin/python
+                git:
+                    commit: d89eab00eb9ccbd4562a82fcd48399f24567fd06
+                    remote: https://github.com/PaulTerrasi/w207-predictive-maintenance.git
+                host: Mac
+                os: macOS-15.6.1-arm64-arm-64bit
+                program: /Users/jubacochran/projects/student/207/w207-predictive-maintenance/experiments/notebooks/juba-experiments.ipynb
+                python: CPython 3.12.2
+                root: /Users/jubacochran/projects/student/207/w207-predictive-maintenance/experiments/notebooks
+                startedAt: "2025-09-16T21:02:19.307783Z"
+                writerId: w6os6nxw6ofyxklhgvhm1mbf6co0var0
+        m: []
+        python_version: 3.12.2
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+            "4": 3.12.2
+            "5": 0.21.4
+            "8":
+                - 1
+                - 2
+            "12": 0.21.4
+            "13": darwin-arm64

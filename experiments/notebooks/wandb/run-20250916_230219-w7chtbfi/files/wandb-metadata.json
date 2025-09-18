@@ -1,0 +1,17 @@
+{
+  "os": "macOS-15.6.1-arm64-arm-64bit",
+  "python": "CPython 3.12.2",
+  "startedAt": "2025-09-16T21:02:19.307783Z",
+  "program": "/Users/jubacochran/projects/student/207/w207-predictive-maintenance/experiments/notebooks/juba-experiments.ipynb",
+  "codePath": "experiments/notebooks/juba-experiments.ipynb",
+  "codePathLocal": "juba-experiments.ipynb",
+  "git": {
+    "remote": "https://github.com/PaulTerrasi/w207-predictive-maintenance.git",
+    "commit": "d89eab00eb9ccbd4562a82fcd48399f24567fd06"
+  },
+  "email": "jubacochran@berkeley.edu",
+  "root": "/Users/jubacochran/projects/student/207/w207-predictive-maintenance/experiments/notebooks",
+  "host": "Mac",
+  "executable": "/Users/jubacochran/projects/student/207/w207-predictive-maintenance/.venv/bin/python",
+  "writerId": "w6os6nxw6ofyxklhgvhm1mbf6co0var0"
+}
