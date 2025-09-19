@@ -15,6 +15,7 @@ dependencies = [
   "ucimlrepo>=0.0.7",
   "pyprojroot>=0.3.0",
   "keras-tuner>=1.4.7",
+  "mlxtend>=0.23.4",
 ]
 
 [project.optional-dependencies]
