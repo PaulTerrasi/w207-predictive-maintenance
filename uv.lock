@@ -13,6 +13,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "ipykernel" },
     { name = "jupyter" },
+    { name = "keras-tuner" },
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pandas" },
@@ -33,6 +34,7 @@ mac-accel = [
 requires-dist = [
     { name = "ipykernel" },
     { name = "jupyter" },
+    { name = "keras-tuner", specifier = ">=1.4.7" },
     { name = "matplotlib" },
     { name = "numpy", specifier = ">=2" },
     { name = "pandas", specifier = ">=2.2" },
@@ -929,6 +931,21 @@ wheels = [
 ]
 
 [[package]]
+name = "keras-tuner"
+version = "1.4.7"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "keras" },
+    { name = "kt-legacy" },
+    { name = "packaging" },
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f4/0f/c59cd351558ef679db7d3fc04327a8a25f03d98a64fc97ab631e0cf9f0e5/keras-tuner-1.4.7.tar.gz", hash = "sha256:6befd25ee81476e6207d8ca7ed7dc674b8194437cfa0b127294cd00da905ff22", size = 79915, upload-time = "2024-03-04T19:41:41.722Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/db/5d/945296512980b0827e93418514c8be9236baa6f0a1e8ca8be3a2026665b0/keras_tuner-1.4.7-py3-none-any.whl", hash = "sha256:0bcf0220eccc74e7a6a9bd7c8e58531a1af8515019e6bc2dc495833155c07fe2", size = 129147, upload-time = "2024-03-04T19:41:39.607Z" },
+]
+
+[[package]]
 name = "kiwisolver"
 version = "1.4.9"
 source = { registry = "https://pypi.org/simple" }
@@ -947,6 +964,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/39/e9/61e4813b2c97e86b6fdbd4dd824bf72d28bcd8d4849b8084a357bc0dd64d/kiwisolver-1.4.9-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:ed0fecd28cc62c54b262e3736f8bb2512d8dcfdc2bcf08be5f47f96bf405b145", size = 2291817, upload-time = "2025-08-10T21:26:22.812Z" },
     { url = "https://files.pythonhosted.org/packages/a0/41/85d82b0291db7504da3c2defe35c9a8a5c9803a730f297bd823d11d5fb77/kiwisolver-1.4.9-cp312-cp312-win_amd64.whl", hash = "sha256:f68208a520c3d86ea51acf688a3e3002615a7f0238002cccc17affecc86a8a54", size = 73895, upload-time = "2025-08-10T21:26:24.37Z" },
     { url = "https://files.pythonhosted.org/packages/e2/92/5f3068cf15ee5cb624a0c7596e67e2a0bb2adee33f71c379054a491d07da/kiwisolver-1.4.9-cp312-cp312-win_arm64.whl", hash = "sha256:2c1a4f57df73965f3f14df20b80ee29e6a7930a57d2d9e8491a25f676e197c60", size = 64992, upload-time = "2025-08-10T21:26:25.732Z" },
+]
+
+[[package]]
+name = "kt-legacy"
+version = "1.0.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/45/1f/d2cd57ea472f935e699e6f79f46f3728634c820ad4ba02a451127789af81/kt-legacy-1.0.5.tar.gz", hash = "sha256:dbbade58f12c6a6da6062f4b045a6395a8d4195815e3e064bc3e609b69c8a26c", size = 6719, upload-time = "2023-04-12T23:36:54.686Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/16/53/aca9f36da2516db008017db85a1f3cafaee0efc5fc7a25d94c909651792f/kt_legacy-1.0.5-py3-none-any.whl", hash = "sha256:8d5c5b3dccf348367fe9ca5b006e7ad2d1babcce62976cfc199e831ea699dcd3", size = 9606, upload-time = "2023-04-12T23:36:52.499Z" },
 ]
 
 [[package]]
