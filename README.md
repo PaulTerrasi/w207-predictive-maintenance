@@ -18,7 +18,7 @@
    ```bash
    uv run python -m ipykernel install --user --name 207-pm --display-name "Python 3.12 (207-pm)"
 
-4. Install LFS
+4. Install LFS (see [documentation](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage))
    ```bash
    git lfs install
    git lfs pull
