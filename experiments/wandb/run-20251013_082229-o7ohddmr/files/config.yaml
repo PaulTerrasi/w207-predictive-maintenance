@@ -1,0 +1,57 @@
+_wandb:
+    value:
+        cli_version: 0.22.1
+        e:
+            u6tk55fykf4wp42cnbkgzjs37e43e04s:
+                apple:
+                    ecpuCores: 6
+                    gpuCores: 10
+                    memoryGb: 16
+                    name: Apple M4
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "4294967296"
+                codePath: experiments/notebooks/paul_mf_experiment.ipynb
+                codePathLocal: paul_mf_experiment.ipynb
+                cpu_count: 10
+                cpu_count_logical: 10
+                disk:
+                    /:
+                        total: "245107195904"
+                        used: "114824765440"
+                email: paul.a.terrasi@gmail.com
+                executable: /Users/paulterrasi/Documents/datasci_207/w207-predictive-maintenance/.venv/bin/python
+                git:
+                    commit: e217a809fc66a9aa550a7fd0a18c672a862de859
+                    remote: git@github.com:PaulTerrasi/w207-predictive-maintenance.git
+                host: Pauls-MacBook-Air.local
+                memory:
+                    total: "17179869184"
+                os: macOS-26.0.1-arm64-arm-64bit
+                program: /Users/paulterrasi/Documents/datasci_207/w207-predictive-maintenance/experiments/notebooks/paul_mf_experiment.ipynb
+                python: CPython 3.12.11
+                root: /Users/paulterrasi/Documents/datasci_207/w207-predictive-maintenance/experiments
+                startedAt: "2025-10-13T12:22:29.328341Z"
+                writerId: u6tk55fykf4wp42cnbkgzjs37e43e04s
+        m: []
+        python_version: 3.12.11
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+            "4": 3.12.11
+            "5": 0.22.1
+            "8":
+                - 1
+            "12": 0.22.1
+            "13": darwin-arm64

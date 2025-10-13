@@ -1,16 +1,16 @@
 {
-  "os": "macOS-15.6.1-arm64-arm-64bit",
+  "os": "macOS-26.0.1-arm64-arm-64bit",
   "python": "CPython 3.12.11",
-  "startedAt": "2025-10-04T16:19:06.963522Z",
-  "program": "/Users/paulterrasi/Documents/datasci_207/w207-predictive-maintenance/experiments/notebooks/paul_hdf_experiment.ipynb",
-  "codePath": "experiments/notebooks/paul_hdf_experiment.ipynb",
-  "codePathLocal": "paul_hdf_experiment.ipynb",
+  "startedAt": "2025-10-13T12:22:29.328341Z",
+  "program": "/Users/paulterrasi/Documents/datasci_207/w207-predictive-maintenance/experiments/notebooks/paul_mf_experiment.ipynb",
+  "codePath": "experiments/notebooks/paul_mf_experiment.ipynb",
+  "codePathLocal": "paul_mf_experiment.ipynb",
   "git": {
     "remote": "git@github.com:PaulTerrasi/w207-predictive-maintenance.git",
-    "commit": "e1a0fab4015996729e8610bace3cbaea4309e47d"
+    "commit": "e217a809fc66a9aa550a7fd0a18c672a862de859"
   },
   "email": "paul.a.terrasi@gmail.com",
-  "root": "/Users/paulterrasi/Documents/datasci_207/w207-predictive-maintenance/experiments/notebooks",
+  "root": "/Users/paulterrasi/Documents/datasci_207/w207-predictive-maintenance/experiments",
   "host": "Pauls-MacBook-Air.local",
   "executable": "/Users/paulterrasi/Documents/datasci_207/w207-predictive-maintenance/.venv/bin/python",
   "cpu_count": 10,
@@ -18,7 +18,7 @@
   "disk": {
     "/": {
       "total": "245107195904",
-      "used": "102358904832"
+      "used": "114824765440"
     }
   },
   "memory": {
@@ -30,8 +30,8 @@
     "pcpuCores": 4,
     "gpuCores": 10,
     "memoryGb": 16,
-    "swapTotalBytes": "2147483648",
+    "swapTotalBytes": "4294967296",
     "ramTotalBytes": "17179869184"
   },
-  "writerId": "bu97c6mf23m47op3viyg6t25ie2sj2mx"
+  "writerId": "u6tk55fykf4wp42cnbkgzjs37e43e04s"
 }
