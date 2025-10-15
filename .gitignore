@@ -226,8 +226,6 @@ mlruns/
 data/interim/**
 data/processed/**
 reports_by_milestone/figures/*
-wandb/
-experiments/
 
 # model artifacts (keep placeholder)
 models/*
