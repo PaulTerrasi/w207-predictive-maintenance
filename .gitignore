@@ -117,6 +117,8 @@ mlruns/
 wandb/
 experiments/notebooks/wandb/
 src/pipeline/wandb/
+experiments/notebooks/models
+experiments/notebooks/*
 
 # --- Data & outputs (raw is source of truth) ---
 data/interim/**
