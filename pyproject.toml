@@ -11,9 +11,12 @@ dependencies = [
   "seaborn",
   "wandb",
   "jupyter",
-  "ipykernel"
+  "ipykernel",
+  "ucimlrepo>=0.0.7",
+  "pyprojroot>=0.3.0"
 ]
 
 [project.optional-dependencies]
 # Install on Apple Silicon with: uv sync --extra mac-accel
 mac-accel = ["tensorflow-metal"]
+
