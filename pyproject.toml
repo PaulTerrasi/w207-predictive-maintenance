@@ -16,6 +16,7 @@ dependencies = [
   "pyprojroot>=0.3.0",
   "keras-tuner>=1.4.7",
   "mlxtend>=0.23.4",
+  "optuna>=4.5.0",
 ]
 
 [project.optional-dependencies]
