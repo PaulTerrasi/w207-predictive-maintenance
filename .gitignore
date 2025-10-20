@@ -133,3 +133,9 @@ reports_by_milestone/figures/*
 # --- Models (keep placeholder) ---
 models/*
 !models/.gitkeep
+# experiments & tracking
+**/wandb/
+**/weights_and_biases*/ 
+**/*.wandb
+**/runs/
+**/outputs/
