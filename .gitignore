@@ -125,7 +125,12 @@ data/interim/**
 data/processed/**
 reports_by_milestone/figures/*
 
-# keep placeholders
+# model artifacts (keep placeholder)
+models/*
+*.keras
+!models/.gitkeep
+# keep figure placeholder
+!reports_by_milestone/figures/.gitkeep
 !data/interim/.gitkeep
 !data/processed/.gitkeep
 !reports_by_milestone/figures/.gitkeep
