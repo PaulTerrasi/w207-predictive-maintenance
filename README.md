@@ -41,12 +41,9 @@ The practice of forecasting machinery failure is formally known as predictive ma
 │   ├── processed
 │   └── raw
 ├── experiments
-│   ├── configs
 │   ├── notebooks
-│   ├── results
-│   └── wandb
-├── models
 ├── notebooks
+    ├── juba_experiments_code
 ├── reports_by_milestone
 │   ├── week_03
 │   ├── week_07
@@ -62,12 +59,11 @@ The practice of forecasting machinery failure is formally known as predictive ma
 ### Directory Glossary
 - `src/` — Python package code (config, data, features, models, pipelines, utils).
 - `scripts/` — CLI wrappers that call into `src/`.
-- `notebooks/` — EDA and exploratory notebooks.
+- `notebooks/` — Individual code.
 - `slides/` — presentation sources/assets.
 - `data/` — project datasets.
   - `data/raw/` — **immutable** original dataset (do not modify).
   - `data/interim/` — cleaned/validated intermediates.
   - `data/processed/` — model-ready features/tables.
-- `models/` — trained artifacts and related files.
 - `experiments/` — configs, results, and experiment notebooks.
 - `reports_by_milestone/` — deliverables organized by week (e.g., `week_03/`, `week_07/`, `week_14/`).
