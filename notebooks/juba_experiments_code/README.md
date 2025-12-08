@@ -45,7 +45,7 @@ Our multi-label deep neural network results (below) are reported on the same dat
 | samples avg   | 0.77      | 0.77   | 0.77     | 1560     |
 
 
-![Loss gradient for Binary Focal Loss](notebooks/juba_experiments_code/loss-gradient-fl-cd.png)
+![Loss gradient for Binary Focal Loss](loss-gradient-fl-cd.png)
 
 
 The best model was selected by maximizing Macro F1 on the validation set. The tuned-threshold performance by label is summarized below.
