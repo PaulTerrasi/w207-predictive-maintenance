@@ -19,22 +19,22 @@ Dereci, U., & Tuzkaya, G. (2024). *An explainable artificial intelligence model 
 
 ## Follow these notebooks in order to understand progression
 
-1. [rebaseline_jubaCochran.ipynb](notebooks/juba_experiments_code/rebaseline_jubaCochran.ipynb)  
+1. [rebaseline_jubaCochran.ipynb](./rebaseline_jubaCochran.ipynb)  
    *(baseline model & initial exploration)*
 
-2. [classImbalance_exploration_jubaCochran.ipynb](notebooks/juba_experiments_code/classImbalance_exploration_jubaCochran.ipynb)  
+2. [classImbalance_exploration_jubaCochran.ipynb](./classImbalance_exploration_jubaCochran.ipynb)  
    *(class imbalance exploration)*
 
-3. [target_feature_engineering_jubaCochran.ipynb](notebooks/juba_experiments_code/target_feature_engineering_jubaCochran.ipynb)  
+3. [target_feature_engineering_jubaCochran.ipynb](./target_feature_engineering_jubaCochran.ipynb)  
    *(feature engineering on targets)*
 
-4. [mlstrat_kfold_jubaCochran.ipynb](notebooks/juba_experiments_code/mlstrat_kfold_jubaCochran.ipynb)  
+4. [mlstrat_kfold_jubaCochran.ipynb](./mlstrat_kfold_jubaCochran.ipynb)  
    *(stratification and 5-fold cross-validation)*
 
-5. [feature_selection-JubaCochran.ipynb](notebooks/juba_experiments_code/feature_selection-JubaCochran.ipynb)  
+5. [feature_selection-JubaCochran.ipynb](./feature_selection-JubaCochran.ipynb)  
    *(feature selection)*
 
-6. [tuning_experiments_model_jubaCochran.ipynb](notebooks/juba_experiments_code/tuning_experiments_model_jubaCochran.ipynb)  
+6. [tuning_experiments_model_jubaCochran.ipynb](./tuning_experiments_model_jubaCochran.ipynb)  
    *(experiments, hyperparameter tuning, and inference)*
 
 
