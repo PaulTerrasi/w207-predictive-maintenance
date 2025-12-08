@@ -17,7 +17,7 @@ Table adapted from Dereci & Tuzkaya (2024), Table 6.
 
 Dereci, U., & Tuzkaya, G. (2024). *An explainable artificial intelligence model for predictive maintenance and spare parts optimization.* Supply Chain Analytics, 8, 100078. https://doi.org/10.1016/j.sca.2024.100078
 
-Random Forest model as a published benchmark for failure prediction performance.
+The random Forest model as a published benchmark for failure prediction performance.
 Our multi-label deep neural network results (below) are reported on the same dataset, with tuned decision thresholds per label. A comprehensive approach was used to explore and model the data.
 
 ## Follow these notebooks in order to understand progression
